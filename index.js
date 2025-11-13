@@ -1,39 +1,50 @@
-( arithmetic)
-console.log( 5+2)
-console.log(`ade`+`ola` )
-console.log( 10-2)
-console.log( 6*2)
-console.log( 8/2)
-console.log( 8%4)
-console.log( 2**3)
+let students = [
+  { name: "Bola Joe", score: 80 },
+  { name: "Bolu Moa", score: 40 },
+  { name: "Simi Tola", score: 70 },
+  { name: "Eliana Anan", score: 90 },
+  { name: "Elvis Key", score: 30 },
+];
+
+map()
+let studentNames = students.map( function(studentNames) {
+  return studentNames
+});
+console.log("StudentNames");
+
+filter()
+let passedStudents = students.filter( function(student) {
+  return student.score >= 50;
+})
+console.log("Passed Students:");
+
+reduce()
+let averageScore = students.reduce( function(total, student) {
+  return total + student.score, students.length;
+},0)
+console.log("Average Score:", );
+
+loop
+for (let i = 0; i < students.length; i++) {
+  console.log (Studentscore + i);
+}
+  let grade;
+
+  ifelse 
+
+  if (student.score >= 80) {
+    console.log(grade = "A");
+  } else if (student.score >= 70) {
+    console.log (grade = "B");
+  } else if (student.score >= 60) {
+    console.log (grade = "C");
+  } else if (student.score >= 50) {
+    console.log (grade = "D");
+  } else {
+    console.log( grade ="F");
+  }
+
+ 
 
 
-let x=10( assignment)
-console.log(x=10 )
-console.log( x+=5)
-console.log( x-=6)
-console.log( x*=7)
 
-
-( comparison)
-console.log( `5`==5)
-console.log( 5==5)
-console.log( `5` === 5)
-console.log( 5 ===5)
-
-
-
-
-
-
-
-
-
-
-
-// conditional statements
-// let adultage= 18;
-
-// if (adultage > 18) {
-//     cconsole.log(you are
-// }
